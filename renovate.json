@@ -1,0 +1,19 @@
+{
+  "extends": ["config:base"],
+  "docker": {
+    "enabled": true,
+    "pinDigests": true
+  },
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["*"],
+      "versioning": "semver"
+    }
+  ],
+  "ignorePaths": [
+    "**/.env", 
+    "**/*.md"
+  ],
+  "labels": ["dependencies"]
+}
