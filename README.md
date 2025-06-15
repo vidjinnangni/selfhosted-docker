@@ -32,11 +32,11 @@ To run a service:
 
 ```bash
 cd /opt/selfhost/docker/services/vaultwarden
-docker-compose up -d
+docker compose up -d
 ```
 
 > [!TIP]
-> If the folder contains a .env.example file, copy it to .env and adjust settings before starting the container.
+> If the folder contains a .env file, copy it and adjust settings before starting the container.
 
 ## Contributions
 
