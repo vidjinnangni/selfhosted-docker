@@ -1,6 +1,6 @@
 # MySQL
 
-This is a standalone MySQL 8 container that can be used by other self-hosted services.
+This is a standalone MySQL 9 container that can be used by other self-hosted services.
 
 ## Features
 

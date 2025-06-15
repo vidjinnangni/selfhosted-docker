@@ -6,6 +6,7 @@ A collection of `docker-compose.yaml` files to easily self-host popular open-sou
 [![Last Commit](https://img.shields.io/github/last-commit/vidjinnangni/selfhosted-docker)](https://github.com/ton-utilisateur/selfhosted-docker/commits/main)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ton-utilisateur/selfhosted-docker/pulls)
 [![Stars](https://img.shields.io/github/stars/vidjinnangni/selfhosted-docker?style=social)](https://github.com/ton-utilisateur/selfhosted-docker/stargazers)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen?style=flat-square)](https://github.com/apps/renovate)
 
 ## Requirements
 

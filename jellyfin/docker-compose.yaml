@@ -1,7 +1,7 @@
 
 services:
   jellyfin:
-    image: jellyfin/jellyfin:latest
+    image: jellyfin/jellyfin:2025060905@sha256:a40bb806582317ac772d6e3bcb3d5de698b96afb89894040eeb7efb40df910a4
     container_name: jellyfin
     ports:
       - "${JELLYFIN_PORT}:8096"
