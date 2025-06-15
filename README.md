@@ -17,7 +17,7 @@ A collection of `docker-compose.yaml` files to easily self-host popular open-sou
 
 We suggest organizing your services like this:
 
-```
+```plaintext
 /opt/selfhost/docker/
 ├── services/
 │   ├── vaultwarden/

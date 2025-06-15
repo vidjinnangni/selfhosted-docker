@@ -27,7 +27,8 @@ This folder contains a `docker-compose.yaml` file to quickly get Gitea running l
 ```bash
 docker compose up -d
 ```
-- Access the web interface at: http://localhost:3000
+
+- Access the web interface at: <http://localhost:3000>
 - The default SSH port is mapped to localhost:222 for Git over SSH.
 
 ## Configuration
@@ -42,4 +43,4 @@ You can customize the UID, GID, and root URL in the environment section of the c
 docker compose down
 ```
 
-Official Docs: https://docs.gitea.com/next/installation/install-with-docker
+Official Docs: <https://docs.gitea.com/next/installation/install-with-docker>
