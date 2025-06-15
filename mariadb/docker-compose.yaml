@@ -1,7 +1,7 @@
 
 services:
   mariadb:
-    image: mariadb:10.11
+    image: mariadb:10.11@sha256:34adebbac117c8ce649040e009f520fb79e577c68cc4e57debdf91befa53907f
     container_name: mariadb
     restart: unless-stopped
     environment:
