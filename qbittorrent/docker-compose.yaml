@@ -1,0 +1,21 @@
+
+services:
+  qbittorrent:
+    image: linuxserver/qbittorrent:4.6.5
+    container_name: qbittorrent
+    restart: unless-stopped
+    ports:
+      - "${QBITTORRENT_PORT_WEBUI}:8080"
+      - "${QBITTORRENT_PORT_BT}:6881"
+      - "${QBITTORRENT_PORT_BT_UDP}:6881/udp"
+    volumes:
+      - qbittorrent_config:/config
+      - ${DOWNLOADS_DIR}:/downloads
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - WEBUI_PORT=8080
+
+volumes:
+  qbittorrent_config:

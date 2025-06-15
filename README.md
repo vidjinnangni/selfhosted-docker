@@ -39,6 +39,21 @@ docker compose up -d
 > [!TIP]
 > If the folder contains a .env file, copy it and adjust settings before starting the container.
 
+## Docker Image Tags
+
+This repository uses versioned Docker image tags (**SemVer**) instead of latest to ensure consistency and reproducibility.
+
+Additionally, all images are pinned with **SHA256** digests using _Renovate_.
+This guarantees that pulling the same docker-compose.yaml always results in the same image build, even if upstream changes occur.
+
+Example:
+
+```yaml
+image: nextcloud@sha256:9f0aab9e...
+```
+
+> _Renovate_ automatically checks for updates and opens pull requests when a new version (with updated digest) is available.
+
 ## Contributions
 
 Pull requests are welcome!
