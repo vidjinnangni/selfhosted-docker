@@ -26,5 +26,5 @@ jobs:
           echo "🔍 Searching for docker-compose.yaml files..."
           find . -type f -name docker-compose.yaml | while read file; do
             echo "🔍 Validating $file"
-            docker-compose -f "$file" config -q
+            docker compose -f "$file" config -q
           done
