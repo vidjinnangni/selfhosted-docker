@@ -1,7 +1,7 @@
 
 services:
   qbittorrent:
-    image: linuxserver/qbittorrent:4.6.5
+    image: linuxserver/qbittorrent:14.3.9@sha256:751f377e7bcfe8e7aee1d219049720690510f488bba649f8ceffcd911e83d908
     container_name: qbittorrent
     restart: unless-stopped
     ports:
