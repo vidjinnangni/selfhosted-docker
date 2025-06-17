@@ -1,7 +1,7 @@
 
 services:
   vaultwarden:
-    image: vaultwarden/server:1.30.5
+    image: vaultwarden/server:1.30.5@sha256:edb8e2bab9cbca22e555638294db9b3657ffbb6e5d149a29d7ccdb243e3c71e0
     container_name: vaultwarden
     restart: unless-stopped
     environment:
