@@ -1,0 +1,18 @@
+
+services:
+  vaultwarden:
+    image: vaultwarden/server:1.30.5
+    container_name: vaultwarden
+    restart: unless-stopped
+    environment:
+      - WEBSOCKET_ENABLED=true
+      - SIGNUPS_ALLOWED=${SIGNUPS_ALLOWED}
+      - ADMIN_TOKEN=${ADMIN_TOKEN}
+      - DOMAIN=${DOMAIN}
+    ports:
+      - "${VAULTWARDEN_PORT}:80"
+    volumes:
+      - vw_data:/data
+
+volumes:
+  vw_data:

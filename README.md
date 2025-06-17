@@ -54,6 +54,25 @@ image: nextcloud@sha256:9f0aab9e...
 
 > _Renovate_ automatically checks for updates and opens pull requests when a new version (with updated digest) is available.
 
+## Volume Paths
+
+> [!NOTE]
+> The local volume paths in each docker-compose.yaml (like ./data:/data, ./db:/var/lib/mysql, etc.) are only examples.
+> You can adapt the paths to whatever suits your environment, for instance:
+
+```yaml
+- /mnt/docker-data/nextcloud:/data
+- /srv/services/vaultwarden/data:/data
+- ~/docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+```
+
+Make sure that:
+
+- The folders exist or will be created automatically
+- The Docker engine has access to them
+
+---
+
 ## Contributions
 
 Pull requests are welcome!
@@ -61,8 +80,8 @@ Pull requests are welcome!
 To contribute:
 
 - Create a new folder under services/
-- Add a clean, minimal docker-compose.yaml
-- Optionally include a .env.example file and a short README.md
+- Add a clean, minimal `docker-compose.yaml`
+- Optionally include a `.env` example file and a short `README.md`
 - Avoid including reverse proxy setup unless strictly required
 
 Let’s build a simple, useful reference for the self-hosting community 🚀
