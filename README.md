@@ -8,6 +8,29 @@ A collection of `docker-compose.yaml` files to easily self-host popular open-sou
 [![Stars](https://img.shields.io/github/stars/vidjinnangni/selfhosted-docker?style=social)](https://github.com/ton-utilisateur/selfhosted-docker/stargazers)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen?style=flat-square)](https://github.com/apps/renovate)
 
+---
+
+## Available Services
+
+Click on each link to view its docker-compose.yaml file and setup instructions:
+
+- [Gitea](./gitea/)
+- [Homepage](./homepage/)
+- [Jellyfin](./jellyfin/)
+- [Jellyseerr](./jellyseerr/)
+- [MariaDB](./mariadb/)
+- [MySQL](./mysql/)
+- [Nextcloud](./nextcloud/)
+- [Nginx Proxy Manager](./npm/)
+- [PostgreSQL](./postgresql/)
+- [qBittorrent](./qbittorrent/)
+- [Vaultwarden](./vaultwarden/)
+
+> [!NOTE]
+> **More services will be added over time.** Feel free to contribute via pull requests!
+
+---
+
 ## Requirements
 
 - Docker

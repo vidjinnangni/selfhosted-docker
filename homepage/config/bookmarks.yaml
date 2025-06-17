@@ -1,0 +1,12 @@
+# Bookmarks configuration for Homepage
+# This file defines the bookmarks that will be displayed on the homepage.
+# Each bookmark has a name and a URL.
+# The bookmarks will be displayed in the Bookmarks section of the homepage.
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Resources:
+    - GitHub:
+        href: https://github.com
+    - Homepage Docs:
+        href: https://gethomepage.dev

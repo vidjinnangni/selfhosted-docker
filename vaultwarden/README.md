@@ -13,7 +13,7 @@
 
 ```bash
 ├── docker-compose.yaml
-├── .env.example
+├── .env
 └── README.md
 ```
 
