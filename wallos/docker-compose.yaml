@@ -1,0 +1,13 @@
+
+services:
+  wallos:
+    image: ghcr.io/flamellc/wallos:2.2.3
+    container_name: wallos
+    restart: unless-stopped
+    ports:
+      - "3001:3000"
+    volumes:
+      - wallos_data:/data
+
+volumes:
+  wallos_data:

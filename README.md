@@ -30,6 +30,7 @@ Click on each link to view its docker-compose.yaml file and setup instructions:
 - [PostgreSQL](./postgresql/)
 - [qBittorrent](./qbittorrent/)
 - [Vaultwarden](./vaultwarden/)
+- [Wallos](./wallos/)
 
 > [!NOTE]
 > **More services will be added over time.** Feel free to contribute via pull requests!
