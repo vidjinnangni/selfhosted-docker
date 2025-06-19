@@ -1,0 +1,22 @@
+
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:2025.06.2@sha256:706fa18daedc85b73684b57468b7e20ec213cfaf98be735aadee183825188ea0
+    restart: unless-stopped
+    environment:
+      - TZ=${TZ}
+      - WEBPASSWORD=${WEBPASSWORD}
+    ports:
+      - "${PIHOLE_WEB_PORT}:80"
+      - "${PIHOLE_DNS_PORT}:53/tcp"
+      - "${PIHOLE_DNS_PORT}:53/udp"
+    volumes:
+      - pihole_etc:/etc/pihole
+      - pihole_dnsmasq:/etc/dnsmasq.d
+    cap_add:
+      - NET_ADMIN
+
+volumes:
+  pihole_etc:
+  pihole_dnsmasq:

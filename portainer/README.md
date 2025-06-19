@@ -12,7 +12,7 @@
 
 ## Folder Structure
 
-```bash
+```plaintext
 ├── docker-compose.yaml
 └── README.md
 ```

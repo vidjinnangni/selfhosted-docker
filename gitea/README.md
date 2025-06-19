@@ -15,7 +15,7 @@ This folder contains a `docker-compose.yaml` file to quickly get Gitea running l
 
 ## Folder structure
 
-```bash
+```plaintext
 ├── docker-compose.yaml
 └── README.md
 ```

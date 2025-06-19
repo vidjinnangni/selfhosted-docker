@@ -14,6 +14,7 @@ A collection of `docker-compose.yaml` files to easily self-host popular open-sou
 
 Click on each link to view its docker-compose.yaml file and setup instructions:
 
+- [File Browser](./file_browser/)
 - [Gitea](./gitea/)
 - [Homepage](./homepage/)
 - [Jellyfin](./jellyfin/)
@@ -22,6 +23,9 @@ Click on each link to view its docker-compose.yaml file and setup instructions:
 - [MySQL](./mysql/)
 - [Nextcloud](./nextcloud/)
 - [Nginx Proxy Manager](./npm/)
+- [pgAdmin](./pgadmin/)
+- [Pi-hole](./pihole/)
+- [Portainer](./portainer/)
 - [PostgreSQL](./postgresql/)
 - [qBittorrent](./qbittorrent/)
 - [Vaultwarden](./vaultwarden/)

@@ -11,7 +11,7 @@
 
 ## Folder Structure
 
-```bash
+```plaintext
 ├── docker-compose.yaml
 ├── .env
 └── README.md
@@ -19,8 +19,9 @@
 
 ## Usage
 
-- Copy the `.env` file and configure it
-- Navigate to the folder, and run:
+- Navigate to the folder
+- Open the `.env` file and configure it
+- And run:
 
 ```bash
 docker compose up -d
