@@ -1,0 +1,19 @@
+# This file contains the configuration settings for the homepage dashboard.
+# It defines the title, theme, color, and layout of the dashboard.
+# The layout specifies the sections to be displayed on the homepage.
+# The sections include Services, Bookmarks, and Widgets.
+# The Services section will display the services defined in the services.yaml file.
+# The Bookmarks section will display the bookmarks defined in the bookmarks.yaml file.
+# The Widgets section will display the widgets defined in the widgets.yaml file.
+# The theme and color settings will apply to the entire dashboard.
+# The title will be displayed at the top of the dashboard.
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: "My Dashboard"
+theme: dark
+color: slate
+layout:
+  - Services
+  - Bookmarks
+  - Widgets

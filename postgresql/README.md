@@ -18,8 +18,9 @@ This is a standalone PostgreSQL 15 container, which can be used as a shared data
 
 ## Usage
 
-- Copy the `.env` file and configure it
-- Navigate to the folder, and run:
+- Navigate to the folder
+- Open the `.env` file and configure it
+- And run:
 
 ```bash
 docker compose up -d

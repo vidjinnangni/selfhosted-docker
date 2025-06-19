@@ -1,0 +1,20 @@
+# This file is used to configure the widgets displayed on the homepage.
+# Each widget can display various types of information such as system resources,
+# system information, or custom content.
+# The widgets can be customized with icons, titles, and other settings.
+# The widgets will be displayed in the Widgets section of the homepage.
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- logo:
+    icon:
+
+- resources:
+    cpu: true
+    memory: true
+    disk:
+      - /
+
+- search:
+    provider:
+    target: _blank

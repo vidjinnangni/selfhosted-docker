@@ -1,0 +1,14 @@
+
+services:
+  filebrowser:
+    image: filebrowser/filebrowser:v2.30.0
+    container_name: filebrowser
+    restart: unless-stopped
+    ports:
+      - "8084:80"
+    volumes:
+      - /opt/selfhost/data:/srv  # Replace with the folder you want to browse
+      - filebrowser_config:/config
+
+volumes:
+  filebrowser_config:

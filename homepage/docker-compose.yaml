@@ -1,0 +1,11 @@
+
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:v1.3.2@sha256:4f923bf0e9391b3a8bc5527e539b022e92dcc8a3a13e6ab66122ea9ed030e196
+    container_name: homepage
+    volumes:
+      - ./config:/app/config  # You can adapt the path to whatever suits you.
+      - /var/run/docker.sock:/var/run/docker.sock  # optional: enables Docker integration
+    ports:
+      - 3000:3000
+    restart: unless-stopped

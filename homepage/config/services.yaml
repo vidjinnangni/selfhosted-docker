@@ -1,0 +1,18 @@
+# This file defines the services that will be displayed on the homepage.
+# Each service has a name, a URL, and an optional description, icon and widget.
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Services:
+    - Vaultwarden:
+        href: http://localhost:8082
+        description: "Self-hosted password manager"
+        icon: vaultwarden
+    - Jellyfin:
+        href: http://localhost:8096
+        description: "Self-hosted media server"
+        icon: jellyfin
+    - Nextcloud:
+        href: http://localhost:8080
+        description: "Self-hosted file sync and share"
+        icon: nextcloud
