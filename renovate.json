@@ -1,19 +1,30 @@
 {
-  "extends": ["config:base"],
-  "docker": {
-    "enabled": true,
-    "pinDigests": true
-  },
+  "extends": [
+    "config:recommended"
+  ],
   "packageRules": [
     {
-      "matchDatasources": ["docker"],
-      "matchPackageNames": ["*"],
+      "matchCategories": [
+        "docker"
+      ],
+      "enabled": true,
+      "pinDigests": true
+    },
+    {
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "*"
+      ],
       "versioning": "semver"
     }
   ],
   "ignorePaths": [
-    "**/.env", 
+    "**/.env",
     "**/*.md"
   ],
-  "labels": ["dependencies"]
+  "labels": [
+    "dependencies"
+  ]
 }
