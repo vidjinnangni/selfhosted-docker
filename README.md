@@ -21,6 +21,7 @@ Click on each link to view its docker-compose.yaml file and setup instructions:
 - [It-tools](./it-tools/)
 - [Jellyfin](./jellyfin/)
 - [Jellyseerr](./jellyseerr/)
+- [Kavita](./kavita/)
 - [MariaDB](./mariadb/)
 - [MinIO](./minIO/)
 - [MySQL](./mysql/)

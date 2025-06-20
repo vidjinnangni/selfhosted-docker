@@ -1,0 +1,15 @@
+
+services:
+  kavita:
+    image: jvmilazz0/kavita:0.8.6@sha256:cdd6abc6e5c3d337c5bb68d4a29bc490456af2a550b3a031374e46dbfac291ce
+    container_name: kavita
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - TZ=Your/Timezone
+    volumes:
+      - /your/path/to/manga:/manga
+      - /your/path/to/comics:/comics
+      - /your/path/to/books:/books
+      - /your/path/to/saved/config:/kavita/config     # /kavita/config must not be changed
