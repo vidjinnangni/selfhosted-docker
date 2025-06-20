@@ -22,6 +22,7 @@ Click on each link to view its docker-compose.yaml file and setup instructions:
 - [Jellyfin](./jellyfin/)
 - [Jellyseerr](./jellyseerr/)
 - [MariaDB](./mariadb/)
+- [MinIO](./minIO/)
 - [MySQL](./mysql/)
 - [Nextcloud](./nextcloud/)
 - [Nginx Proxy Manager](./npm/)
