@@ -15,6 +15,7 @@ A collection of `docker-compose.yaml` files to easily self-host popular open-sou
 Click on each link to view its docker-compose.yaml file and setup instructions:
 
 - [File Browser](./file_browser/)
+- [FreshRSS](./freshrss/)
 - [Gitea](./gitea/)
 - [Homepage](./homepage/)
 - [It-tools](./it-tools/)
