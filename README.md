@@ -26,29 +26,61 @@ A collection of `docker-compose.yaml` files to easily self-host popular open-sou
 
 Click on each link to view its `docker-compose.yaml` and setup instructions:
 
-| Service              | Category     | Link                              |
-|----------------------|--------------|-----------------------------------|
-| File Browser         | Utilities    | [file_browser](./file_browser/)   |
-| FreshRSS             | Content      | [freshrss](./freshrss/)           |
-| Gitea                | DevOps       | [gitea](./gitea/)                 |
-| Gitea Runner         | DevOps       | [gitea-act-runner](./gitea-act-runner/) |
-| Homepage             | Dashboard    | [homepage](./homepage/)           |
-| It-tools             | Utilities    | [it-tools](./it-tools/)           |
-| Jellyfin             | Media        | [jellyfin](./jellyfin/)           |
-| Jellyseerr           | Media        | [jellyseerr](./jellyseerr/)       |
-| Kavita               | Media        | [kavita](./kavita/)               |
-| MariaDB              | Database     | [mariadb](./mariadb/)             |
-| MinIO                | Storage      | [minIO](./minIO/)                 |
-| MySQL                | Database     | [mysql](./mysql/)                 |
-| Nextcloud            | Storage      | [nextcloud](./nextcloud/)         |
-| Nginx Proxy Manager  | Network      | [npm](./npm/)                     |
-| pgAdmin              | Database     | [pgadmin](./pgadmin/)             |
-| Pi-hole              | Network      | [pihole](./pihole/)               |
-| Portainer            | DevOps       | [portainer](./portainer/)         |
-| PostgreSQL           | Database     | [postgresql](./postgresql/)       |
-| qBittorrent          | Media        | [qbittorrent](./qbittorrent/)     |
-| Vaultwarden          | Security     | [vaultwarden](./vaultwarden/)     |
-| Wallos               | Utilities    | [wallos](./wallos/)               |
+### Utilities
+
+| Service        | Link                            |
+|----------------|---------------------------------|
+| File Browser   | [file_browser](./file_browser/) |
+| It-tools       | [it-tools](./it-tools/)         |
+| Wallos         | [wallos](./wallos/)             |
+
+### DevOps & Management
+
+| Service          | Link                                      |
+|------------------|-------------------------------------------|
+| Gitea            | [gitea](./gitea/)                         |
+| Gitea Runner     | [gitea-act-runner](./gitea-act-runner/)   |
+| Portainer        | [portainer](./portainer/)                 |
+| Homepage         | [homepage](./homepage/)                   |
+
+### Networking & Proxy
+
+| Service               | Link                        |
+|------------------------|-----------------------------|
+| Nginx Proxy Manager    | [npm](./npm/)               |
+| Pi-hole                | [pihole](./pihole/)         |
+
+### Security
+
+| Service      | Link                            |
+|--------------|---------------------------------|
+| Vaultwarden  | [vaultwarden](./vaultwarden/)   |
+
+### Storage & File Sync
+
+| Service     | Link                          |
+|-------------|-------------------------------|
+| Nextcloud   | [nextcloud](./nextcloud/)     |
+| MinIO       | [minIO](./minIO/)             |
+
+### Databases & Admin
+
+| Service     | Link                          |
+|-------------|-------------------------------|
+| MariaDB     | [mariadb](./mariadb/)         |
+| MySQL       | [mysql](./mysql/)             |
+| PostgreSQL  | [postgresql](./postgresql/)   |
+| pgAdmin     | [pgadmin](./pgadmin/)         |
+
+### Media & Content
+
+| Service       | Link                          |
+|----------------|-------------------------------|
+| Jellyfin       | [jellyfin](./jellyfin/)       |
+| Jellyseerr     | [jellyseerr](./jellyseerr/)   |
+| qBittorrent    | [qbittorrent](./qbittorrent/) |
+| Kavita         | [kavita](./kavita/)           |
+| FreshRSS       | [freshrss](./freshrss/)       |
 
 > [!NOTE]
 > **More services will be added over time.** Feel free to contribute via pull requests!
