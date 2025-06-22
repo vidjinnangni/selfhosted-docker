@@ -7,34 +7,37 @@ A collection of `docker-compose.yaml` files to easily self-host popular open-sou
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ton-utilisateur/selfhosted-docker/pulls)
 [![Stars](https://img.shields.io/github/stars/vidjinnangni/selfhosted-docker?style=social)](https://github.com/ton-utilisateur/selfhosted-docker/stargazers)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen?style=flat-square)](https://github.com/apps/renovate)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 ---
 
 ## Available Services
 
-Click on each link to view its docker-compose.yaml file and setup instructions:
+Click on each link to view its `docker-compose.yaml` and setup instructions:
 
-- [File Browser](./file_browser/)
-- [FreshRSS](./freshrss/)
-- [Gitea](./gitea/)
-- [Gitea](./gitea-act-runner/)
-- [Homepage](./homepage/)
-- [It-tools](./it-tools/)
-- [Jellyfin](./jellyfin/)
-- [Jellyseerr](./jellyseerr/)
-- [Kavita](./kavita/)
-- [MariaDB](./mariadb/)
-- [MinIO](./minIO/)
-- [MySQL](./mysql/)
-- [Nextcloud](./nextcloud/)
-- [Nginx Proxy Manager](./npm/)
-- [pgAdmin](./pgadmin/)
-- [Pi-hole](./pihole/)
-- [Portainer](./portainer/)
-- [PostgreSQL](./postgresql/)
-- [qBittorrent](./qbittorrent/)
-- [Vaultwarden](./vaultwarden/)
-- [Wallos](./wallos/)
+| Service              | Category     | Link                              |
+|----------------------|--------------|-----------------------------------|
+| File Browser         | Utilities    | [file_browser](./file_browser/)   |
+| FreshRSS             | Content      | [freshrss](./freshrss/)           |
+| Gitea                | DevOps       | [gitea](./gitea/)                 |
+| Gitea Runner         | DevOps       | [gitea-act-runner](./gitea-act-runner/) |
+| Homepage             | Dashboard    | [homepage](./homepage/)           |
+| It-tools             | Utilities    | [it-tools](./it-tools/)           |
+| Jellyfin             | Media        | [jellyfin](./jellyfin/)           |
+| Jellyseerr           | Media        | [jellyseerr](./jellyseerr/)       |
+| Kavita               | Media        | [kavita](./kavita/)               |
+| MariaDB              | Database     | [mariadb](./mariadb/)             |
+| MinIO                | Storage      | [minIO](./minIO/)                 |
+| MySQL                | Database     | [mysql](./mysql/)                 |
+| Nextcloud            | Storage      | [nextcloud](./nextcloud/)         |
+| Nginx Proxy Manager  | Network      | [npm](./npm/)                     |
+| pgAdmin              | Database     | [pgadmin](./pgadmin/)             |
+| Pi-hole              | Network      | [pihole](./pihole/)               |
+| Portainer            | DevOps       | [portainer](./portainer/)         |
+| PostgreSQL           | Database     | [postgresql](./postgresql/)       |
+| qBittorrent          | Media        | [qbittorrent](./qbittorrent/)     |
+| Vaultwarden          | Security     | [vaultwarden](./vaultwarden/)     |
+| Wallos               | Dashboard    | [wallos](./wallos/)               |
 
 > [!NOTE]
 > **More services will be added over time.** Feel free to contribute via pull requests!
