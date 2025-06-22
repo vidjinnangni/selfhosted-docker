@@ -4,27 +4,24 @@
   ],
   "packageRules": [
     {
-      "matchCategories": [
-        "docker"
-      ],
+      "matchCategories": ["docker"],
       "enabled": true,
       "pinDigests": true
     },
     {
-      "matchDatasources": [
-        "docker"
-      ],
-      "matchPackageNames": [
-        "*"
-      ],
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["*"],
       "versioning": "semver"
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "dev dependencies",
+      "groupSlug": "dev-deps"
     }
   ],
   "ignorePaths": [
     "**/.env",
     "**/*.md"
   ],
-  "labels": [
-    "dependencies"
-  ]
+  "labels": ["dependencies"]
 }
