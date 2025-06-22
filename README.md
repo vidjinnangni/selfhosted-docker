@@ -11,6 +11,17 @@ A collection of `docker-compose.yaml` files to easily self-host popular open-sou
 
 ---
 
+## Table of Contents
+
+- [Available Services](#available-services)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Docker Image Tags](#docker-image-tags)
+- [Volume Paths](#volume-paths)
+- [Contributions](#contributions)
+
+---
+
 ## Available Services
 
 Click on each link to view its `docker-compose.yaml` and setup instructions:
@@ -37,7 +48,7 @@ Click on each link to view its `docker-compose.yaml` and setup instructions:
 | PostgreSQL           | Database     | [postgresql](./postgresql/)       |
 | qBittorrent          | Media        | [qbittorrent](./qbittorrent/)     |
 | Vaultwarden          | Security     | [vaultwarden](./vaultwarden/)     |
-| Wallos               | Dashboard    | [wallos](./wallos/)               |
+| Wallos               | Utilities    | [wallos](./wallos/)               |
 
 > [!NOTE]
 > **More services will be added over time.** Feel free to contribute via pull requests!
