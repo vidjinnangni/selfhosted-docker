@@ -1,0 +1,22 @@
+
+services:
+  n8n:
+    image: n8nio/n8n:1.99.1@sha256:2537366a01590c499a4f2c9006da55cdda4c572fd2765a99f5687187ae1cd4be
+    restart: unless-stopped
+    ports:
+      - "${N8N_PORT}:5678"
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=${N8N_BASIC_AUTH_ACTIVE}
+      - N8N_BASIC_AUTH_USER=${N8N_BASIC_AUTH_USER}
+      - N8N_BASIC_AUTH_PASSWORD=${N8N_BASIC_AUTH_PASSWORD}
+      - N8N_HOST=${N8N_HOST}
+      - WEBHOOK_TUNNEL_URL=${N8N_TUNNEL_URL}
+      - N8N_PORT=${N8N_PORT}
+    # Add other environment variables as needed, e.g., for database connection
+    # - DB_TYPE=
+    # - DB_POSTGRESDB_HOST=
+    # - DB_POSTGRESDB_DATABASE=
+    # - DB_POSTGRESDB_USER=
+    # - DB_POSTGRESDB_PASSWORD=
+    volumes:
+      - ./data:/home/node/.n8n
