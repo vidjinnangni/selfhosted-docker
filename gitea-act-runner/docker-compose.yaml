@@ -1,0 +1,14 @@
+
+services:
+  runner:
+    image: gitea/act_runner:0.2.11@sha256:c57233403eff970945cfb8b13f0e622d2124f4dbc623af3e2c74f061d05e8f60
+    container_name: gitea-runner
+    restart: unless-stopped
+    volumes:
+      - ./data:/data # Persistent storage for runner data
+      - /var/run/docker.sock:/var/run/docker.sock # Mount Docker socket for DooD (Docker out of Docker)
+    environment:
+      - GITEA_INSTANCE_URL=${INSTANCE_URL}
+      - GITEA_RUNNER_REGISTRATION_TOKEN=${REGISTRATION_TOKEN}
+      - GITEA_RUNNER_NAME=${RUNNER_NAME}
+      - GITEA_RUNNER_LABELS=${RUNNER_LABELS} # The labels of a runner are used to determine which jobs the runner can run, and how to run them.

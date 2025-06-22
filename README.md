@@ -17,6 +17,7 @@ Click on each link to view its docker-compose.yaml file and setup instructions:
 - [File Browser](./file_browser/)
 - [FreshRSS](./freshrss/)
 - [Gitea](./gitea/)
+- [Gitea](./gitea-act-runner/)
 - [Homepage](./homepage/)
 - [It-tools](./it-tools/)
 - [Jellyfin](./jellyfin/)
