@@ -16,7 +16,7 @@ services:
       - ./data:/data
 
   postgres:
-    image: postgres:15.3@sha256:1d50f6b40414a9f1ef278e7548442b1ac2dbf04d7cbb76e90a865861bc312a90
+    image: postgres:15.3@sha256:8775adb39f0db45cf4cdb3601380312ee5e9c4f53af0f89b7dc5cd4c9a78e4e8
     container_name: linkwarden-db
     restart: unless-stopped
     environment:
