@@ -1,0 +1,27 @@
+
+services:
+  linkwarden:
+    image: ghcr.io/linkwarden/linkwarden:v2.10.2@sha256:c448740684ba24b6866294df4d45bc9e1ff0d48b17401f3502cb7d169c11cf55
+    container_name: linkwarden
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    ports:
+      - "${PORT}:3000"
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
+      - NEXTAUTH_URL=${NEXTAUTH_URL}
+    volumes:
+      - ./data:/data
+
+  postgres:
+    image: postgres:15.3@sha256:1d50f6b40414a9f1ef278e7548442b1ac2dbf04d7cbb76e90a865861bc312a90
+    container_name: linkwarden-db
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data

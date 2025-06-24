@@ -32,6 +32,7 @@ Click on each link to view its `docker-compose.yaml` and setup instructions:
 |----------------|---------------------------------|
 | File Browser   | [file_browser](./file_browser/) |
 | It-tools       | [it-tools](./it-tools/)         |
+| Linkwarden     | [linkwarden](./linkwarden/)     |
 | n8n            | [wallos](./n8n/)                |
 | Wallos         | [wallos](./wallos/)             |
 
