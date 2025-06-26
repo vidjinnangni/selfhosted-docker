@@ -1,7 +1,7 @@
 
 services:
   runner:
-    image: gitea/act_runner:0.2.11@sha256:c57233403eff970945cfb8b13f0e622d2124f4dbc623af3e2c74f061d05e8f60
+    image: gitea/act_runner:0.2.12@sha256:62a561c82dd67ec77ea600db7eac78ac5fed8e2244950fbf1829c54da12e8e54
     container_name: gitea-runner
     restart: unless-stopped
     volumes:
