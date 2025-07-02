@@ -1,7 +1,7 @@
 
 services:
   filebrowser:
-    image: filebrowser/filebrowser:v2.33.10@sha256:dd2e1d8f7382d53afab915fea6bb49cd38112587e766a70241b120cd00f517c2
+    image: filebrowser/filebrowser:v2.36.0@sha256:2f9c8b964f51d56a4e92583c8a09204722fba90dd66ae28836a2e3f563c7cb71
     container_name: filebrowser
     restart: unless-stopped
     ports:
