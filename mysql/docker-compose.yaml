@@ -1,7 +1,7 @@
 
 services:
   mysql:
-    image: mysql:9.3.0@sha256:f1049ce35b3986b84c08184de43a0b2109ae037a4a10a23ecf373a893daeadf7
+    image: mysql:9.3.0@sha256:b9d8b7ec6e6aced08b1cfe50776f8e323c0a625adf4e10e69f90fc686ea10807
     container_name: mysql
     restart: unless-stopped
     environment:
