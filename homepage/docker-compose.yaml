@@ -1,7 +1,7 @@
 
 services:
   homepage:
-    image: ghcr.io/gethomepage/homepage:v1.4.2@sha256:94537770bcf7cd4ded8f2619ab67e0c769b0ca20d7bb997af1e001d5863b6cdf
+    image: ghcr.io/gethomepage/homepage:v1.4.5@sha256:9cdc0cb35224fdfcbdc1d37440b42f05bd803d475a7211fed13bd69a65e4a1d4
     container_name: homepage
     volumes:
       - ./config:/app/config  # You can adapt the path to whatever suits you.
