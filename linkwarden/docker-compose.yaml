@@ -1,7 +1,7 @@
 
 services:
   linkwarden:
-    image: ghcr.io/linkwarden/linkwarden:v2.11.5@sha256:4d0d1261f6cefcd5752708f357b3aa355da3432fb4a023672890c8707217f914
+    image: ghcr.io/linkwarden/linkwarden:v2.12.2@sha256:c1c6f417ea566de2c2dac6e79353ee5f40cb6a44fd9dd3970c83e6fc098de1df
     container_name: linkwarden
     restart: unless-stopped
     depends_on:
