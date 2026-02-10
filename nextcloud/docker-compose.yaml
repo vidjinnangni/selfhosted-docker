@@ -17,7 +17,7 @@ services:
       - MYSQL_HOST=db
 
   db:
-    image: mariadb:10.11@sha256:825d203272f1e2d7653c386f343bd5d87affc89f09931c3ae5e58aeadce2fc0b
+    image: mariadb:10.11@sha256:21d87f60a6d84d25871738c64e468ea56118d73e90f614fbde09695ca9879c6e
     container_name: nextcloud_db
     restart: unless-stopped
     command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
