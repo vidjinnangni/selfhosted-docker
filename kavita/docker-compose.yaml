@@ -1,7 +1,7 @@
 
 services:
   kavita:
-    image: jvmilazz0/kavita:0.8.7@sha256:b9c671586db2a6a688da3cb4b45f1319cca33b01e6e760c8bf3c19d60101bdf2
+    image: jvmilazz0/kavita:0.8.9@sha256:1f2acae7466d022f037ea09f7989eb7c487f916b881174c7a6de33dbfa8acb39
     container_name: kavita
     restart: unless-stopped
     ports:
