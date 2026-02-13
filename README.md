@@ -35,6 +35,7 @@ Click on each link to view its `docker-compose.yaml` and setup instructions:
 | Linkwarden     | [linkwarden](./linkwarden/)     |
 | n8n            | [wallos](./n8n/)                |
 | Wallos         | [wallos](./wallos/)             |
+| Kaneo          | [kaneo](./kaneo/)               |
 
 ### DevOps & Management
 
@@ -47,7 +48,7 @@ Click on each link to view its `docker-compose.yaml` and setup instructions:
 
 ### Networking & Proxy
 
-| Service               | Link                        |
+| Service                | Link                        |
 |------------------------|-----------------------------|
 | Nginx Proxy Manager    | [npm](./npm/)               |
 | Pi-hole                | [pihole](./pihole/)         |
@@ -76,7 +77,7 @@ Click on each link to view its `docker-compose.yaml` and setup instructions:
 
 ### Media & Content
 
-| Service       | Link                          |
+| Service        | Link                          |
 |----------------|-------------------------------|
 | Jellyfin       | [jellyfin](./jellyfin/)       |
 | Jellyseerr     | [jellyseerr](./jellyseerr/)   |
