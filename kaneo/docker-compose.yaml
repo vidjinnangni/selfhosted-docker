@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:16-alpine
+    image: postgres:16.12-alpine3.23@sha256:97ff59a4e30e08d1c11bdcd9455e7832368c0572b576c9092cde2df4ae5552a3
     env_file:
       - .env
     ports:
@@ -15,7 +15,7 @@ services:
       retries: 5
 
   api:
-    image: ghcr.io/usekaneo/api:latest
+    image: ghcr.io/usekaneo/api:2.2.0@sha256:2db92ac03fed70eec1a2dee3228539dea7568c2a567d855e8d8913da1e3214bd
     ports:
       - "1337:1337"
     env_file:
@@ -26,7 +26,7 @@ services:
     restart: unless-stopped
 
   web:
-    image: ghcr.io/usekaneo/web:latest
+    image: ghcr.io/usekaneo/web:2.2.0@sha256:b28ef0e20786e670d030e08cae73c3aa5a6e5aa4b362185730e04a0fcbe61931
     ports:
       - "5173:5173"
     env_file:
