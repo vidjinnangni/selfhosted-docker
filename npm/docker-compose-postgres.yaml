@@ -25,7 +25,7 @@ services:
       - proxy_network
 
   postgres:
-    image: postgres:15@sha256:b0a199c49fa974cf5b18c0bafb128b8023142705b23235892821fa9ac2d2cbb8
+    image: postgres:15@sha256:bcab099bfaab33333a73a2ebe8c1d615c9f4c2402dd43452f989a36c6da9a5ba
     container_name: nginx-proxy-manager-postgres
     restart: unless-stopped
     environment:
