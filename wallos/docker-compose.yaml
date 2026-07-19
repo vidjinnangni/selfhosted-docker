@@ -2,7 +2,7 @@
 services:
   wallos:
     container_name: wallos
-    image: bellamy/wallos:5.2.0@sha256:81dadf61da303fd199701c7eec426f4cf7fba32d137b9b167f67433d4fa98dc8
+    image: bellamy/wallos:5.4.1@sha256:79e24745650eda07631c32a6975e3d5e8ee165ebac6f28d2fb9dd9c13f01d351
     ports:
       - "8282:80/tcp"
     environment:
