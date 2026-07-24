@@ -1,7 +1,7 @@
 
 services:
   n8n:
-    image: n8nio/n8n:2.32.0@sha256:8a6dde6ff9a511b39decc6145a0b4628f819e0385e99172a0ed26b7a436cf69f
+    image: n8nio/n8n:2.32.4@sha256:8bebf4359041e8083fbb38145f03657614b4b0d1b83de7bd3dd300b460a610dc
     restart: unless-stopped
     ports:
       - "${N8N_PORT}:5678"
