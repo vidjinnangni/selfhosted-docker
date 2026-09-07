@@ -26,7 +26,7 @@ services:
     restart: unless-stopped
 
   web:
-    image: ghcr.io/usekaneo/web:2.23.1@sha256:4ad2f953a8f18ef8d8e54d53c51c0da6dd493c366470ed9014ea141d2c016d02
+    image: ghcr.io/usekaneo/web:2.23.2@sha256:46b0f08eb13c5731c8ac39d50cf72fdee62140794924e1c5bfa72051a27184bd
     ports:
       - "5173:5173"
     env_file:
