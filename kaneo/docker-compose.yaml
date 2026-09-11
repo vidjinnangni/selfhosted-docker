@@ -15,7 +15,7 @@ services:
       retries: 5
 
   api:
-    image: ghcr.io/usekaneo/api:2.23.2@sha256:20ca07aea388a3b34b0c61d3c46f3a72d4c39b367879a71e15b248306a0b2652
+    image: ghcr.io/usekaneo/api:2.24.0@sha256:2d8646d50dc9c45e97e0a008b44206f923bafbd185836252b303ff695d7d8237
     ports:
       - "1337:1337"
     env_file:
